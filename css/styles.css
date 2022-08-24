@@ -17,6 +17,13 @@
 
   /*Body*/
 
+  body{
+    background-image: url(../assets/img/fundo.jpg);
+
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+  }
+
   /* Navigation*/
 
   ul {
@@ -24,27 +31,37 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #666;
+    /*background-color: white;*/
     position: fixed;
     top: 0;
     width: 100%;
+    left: 0;
+    
+    justify-content: space-between;
+    display: flex;
   }
   
   li {
     float: left;
-    border-right: 1px solid #bbb;
+    
   }
   
   li a {
     display: block;
-    color: white;
+    color: #418893;
     text-align: center;
-    padding: 14px 16px;
+    padding: 50px;
+
     text-decoration: none;
+    font-weight: bold;
+    font-family: system-ui;
+    letter-spacing: 1px;
+    font-size: 100%;
+
   }
   
   li a:hover {
-    background-color: #111;
+    color:#D2E3E5
   }
   
   .active {
@@ -52,5 +69,18 @@
   }
 
   .logo{
-    height: 10px;
+    height: 130px;
+    margin-top: -20px;
+   
   }
+
+  .white{
+    background-color: white;
+    height: 110px;
+    margin-top: -10px;
+
+    margin-left: -10px;
+    margin-right: -8px;
+  }
+
+
